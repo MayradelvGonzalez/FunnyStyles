@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Navbar from './Navbar';
-import 'style.css';
+import Home from './Home.jsx';
+import Navbar from './Navbar.jsx';
+import './style.css';
 function Rutas() {
   return (
     <BrowserRouter>
@@ -10,10 +10,12 @@ function Rutas() {
         <Link to="/about">Acerca de</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Navbar />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/navbar" element={<Navbar />} />
       </Routes>
     </BrowserRouter>
   );
 }
 export default Rutas;
+
+
