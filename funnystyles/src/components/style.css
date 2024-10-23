@@ -7,8 +7,35 @@
 /* style.css */
 #navegacion {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: #f0f0f0;
+  }
+
+  /* -----------opciones------------------------------ */
+#orden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  
+}
+  #container{
+    background-color:black;
+
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+  }
+  .contenedorS{
+    background-color:white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    padding: 3em;
   }
