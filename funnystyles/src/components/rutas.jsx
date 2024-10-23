@@ -4,15 +4,17 @@ import Navbar from './Navbar.jsx';
 import './style.css';
 function Rutas() {
   return (
+    
     <BrowserRouter>
-      <nav id='navegacion'>
-        <Link to="/">Inicio</Link>
-        <Link to="/about">Acerca de</Link>
-      </nav>
-      <Routes>
-        <Route path="/home" element={<Home />} />
+    soy las rutas
+    {/* <nav>
+      <Link to="/">Inicio</Link>
+      <Link to="/navbar">Opciones</Link>
+    </nav> */}
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/navbar" element={<Navbar />} />
-      </Routes>
+      </Routes> */}
     </BrowserRouter>
   );
 }

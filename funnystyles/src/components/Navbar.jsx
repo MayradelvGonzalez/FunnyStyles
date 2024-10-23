@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-
+import './style.css'
 function Navbar() {
   return (
-    <nav>
+    <nav id='navegacion'>
+
       <Link to="/">Inicio</Link>
-      <Link to="/home">Soy home</Link>
+      <Link to="/opciones">Opciones</Link>
     </nav>
   );
 }
