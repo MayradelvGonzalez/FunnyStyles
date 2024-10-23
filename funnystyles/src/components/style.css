@@ -50,3 +50,12 @@ border:3px solid #ccc;
   .contenedorS:hover{
   border-color: aqua;
   }
+  #estilo1:hover{
+    background-color: rgb(104, 43, 81);
+  }
+  #estilo4:hover{
+    background-color: rgb(128, 87, 0);
+  }
+  #estilo5:hover{
+    background-color: rgb(21, 35, 161);
+  }
